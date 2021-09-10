@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #1d5888;
-    --secondary-color: #ff993b;
-    --dark-color: #292929;
-    --white-color: #e7e7e7;
+    --primary-color: #364450;
+    --secondary-color: #000000;
+    --dark-color: #38b6ff;
+    --white-color: #6b6666;
 }
 
 body {
@@ -57,6 +57,19 @@ h1,h2,h3,h4,h5,h6 {
 main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
+}
+
+.Fizz {
+    color: darkgreen;
+}
+
+.Buzz {
+    color: darkblue;
+}
+
+.FizzBuzz {
+    color: red;
+    font-weight: bold;
 }
 
 code[class*="language-"], pre[class*="language-"] {
